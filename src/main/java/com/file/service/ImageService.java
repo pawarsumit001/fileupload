@@ -25,7 +25,7 @@ public class ImageService {
         System.out.println(file.getContentType());
         System.out.println(file.getSize());
         System.out.println(file.isEmpty());
-        return "Image saved in database";
+        return "Image saved in db";
     }
 
     public Optional<Image> downloadImageBYId(int id) {
