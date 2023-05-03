@@ -35,7 +35,7 @@ public class ImageService {
         return optionalImage;
     }
 
-    public void deleteImage(int id) {
+   /* public void deleteImage(int id) {
         imageRepository.deleteById(id);
-    }
+    }*/
 }
