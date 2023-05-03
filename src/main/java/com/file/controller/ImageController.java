@@ -27,4 +27,9 @@ public class ImageController {
 Optional<Image> images =imageService.downloadImageBYId(id);
         return images;
     }
+    @DeleteMapping("/{id}")
+    public void DeleteImage(@PathVariable("id") int id){
+        imageService.deleteImage(id);
+
+    }
 }

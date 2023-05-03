@@ -34,4 +34,8 @@ public class ImageService {
         Optional<Image> optionalImage = imageRepository.findById(id);
         return optionalImage;
     }
+
+    public void deleteImage(int id) {
+        imageRepository.deleteById(id);
+    }
 }
